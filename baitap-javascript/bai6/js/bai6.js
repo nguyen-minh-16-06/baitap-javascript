@@ -13,9 +13,3 @@ while (Math.abs(second - first) > eps) {
 }
 
 document.write(first);
-
-function factorial(n) {
-    if (n == 1) return 1;
-    if (n == 3) return 6;
-    return n * factorial(n - 2);
-}
